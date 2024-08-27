@@ -3,8 +3,6 @@ import { CartContext } from "../store/shopping-cart-context";
 
 
 export default function Cart() {
-  // const { items } = useContext(CartContext)
-
 
   return (
     <CartContext.Consumer>
